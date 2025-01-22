@@ -21,13 +21,11 @@ const Landing = () => {
 
   return (
     <div className="flex flex-col">
-      <div className="h-1/4">
-        <div className="flex top-4 right-4">
-          <div className="flex text-center">title</div>
-          <button className="bg-gray-700 text-white py-2 mx-3 my-2 px-4 left-0 rounded">
-            Your Profile
-          </button>
-        </div>
+      <div className="flex justify-between items-center p-4 bg-gray-50 shadow-md">
+        <h1 className="text-2xl font-bold text-gray-800">folio</h1>
+        <button className="px-4 py-2 bg-indigo-500 text-white rounded hover:bg-indigo-600">
+          your profile
+        </button>
       </div>
       <div className="flex min-h-screen h-3/4 text-white">
         {/* Sidebar */}
